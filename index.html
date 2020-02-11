@@ -1,16 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About me</title>
-    <link rel="stylesheet" href="sytlesheet.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About me</title>
+  <link rel="stylesheet" href="sytlesheet.css">
+  <style>
+    #map {
+      height: 400px;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <div class="center">
-        <h1>Welcome to my about page</h1>
-        <h3>There is more to come. . .</h3>
-    </div>
+  <header>
+    Nandor Koppandi
+    <nav>
+      <ul class="links">
+        <li class="links"><a href="/">About</a></li>
+        <li class="links"><a href="/links/projects/">Projects</a></li>
+        <li class="links"><a href="/links/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article  class="info">
+      <figure>
+          <img src="" alt="me working">
+          <img src="imgs/im_a_bum.png" alt="profile of me" width="90px">
+      </figure>
+      <p>Nandor Koppandi is a multidisciplinary hardware and software technician that is driven to give innovative solutions to others to increase their work performance and worflow.</p>
+    </article>
+
+    <article>
+      <h1>Where I'm from and where I've been</h1>
+
+      <div id="map"></div>
+      <script>
+        function myMap() {
+          var location = {lat: 42.719610, lng: -84.489090};
+          var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: location});
+          var marker = new google.maps.Marker({position: location, map: map});
+        }
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj3_MiNOtv4oHg9lewpHdZTqltRfo9ZPc&callback=initMap">
+      </script>  
+        
+      <p>Born in Transylvania</p>
+      <p>Moved to Cleveland, Ohio</p>
+      <p>Travled to . . .</p>
+    </article>
+
+    <article id="ed_ex">
+      <div id="edu">
+        <h1>Education</h1>
+        <p>Graduated from Orange High School</p>
+        <p>Finishg senior year of Media and Information at Michigan State</p>
+      </div>
+      <div id="exp">
+        <h1>Experience</h1>
+        <p>CTL</p>
+        <p>Starup week</p>
+      </div>
+    </article>
+  </main>
+
+  <!-- <div class="center">
+      <h1>Welcome to my about page</h1>
+      <h3>There is more to come. . .</h3>
+  </div> -->
 </body>
 </html>
