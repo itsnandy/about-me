@@ -42,12 +42,12 @@
         function myMap() {
           var location = {lat: 42.719610, lng: -84.489090};
           var map = new google.maps.Map(
-            document.getElementById('map'), {zoom: 4, center: location});
+            document.getElementById('map'), {zoom: 8, center: location});
           var marker = new google.maps.Marker({position: location, map: map});
         }
       </script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj3_MiNOtv4oHg9lewpHdZTqltRfo9ZPc&callback=initMap">
-      </script>  
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj3_MiNOtv4oHg9lewpHdZTqltRfo9ZPc&callback=myMap">
+      // <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=myMap"> -->
         
       <p>Born in Transylvania</p>
       <p>Moved to Cleveland, Ohio</p>
