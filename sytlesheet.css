@@ -28,9 +28,13 @@ li {
   background-color: cadetblue;
 }
 
-/* .center {
+.map {
+  border-radius: 8px;
+}
+
+.center {
   margin: auto;
   width: 50%;
   height: 50%;
   padding: 10px;
-} */
+}
