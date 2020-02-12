@@ -37,61 +37,35 @@
         solutions to others to increase their work performance and worflow.</p>
     </article>
 
-    <article>
-      <h1>Where I'm from and where I've been</h1>
+    <article class="locationArt">
+      <h1 class="where">Where I'm from and where I've been</h1>
 
       <div id="map" class="map"></div>
-      <script>
-        function myMap() {
-          var centerLoc = {lat: 42.719610, lng: -84.489090};
-
-          var green = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
-          var blue = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
-          var orange = 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png'
-          var red = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'
-
-          var map = new google.maps.Map(
-            document.getElementById('map'), { zoom: 8, center: centerLoc });
-
-          // Look up region code biasing with geocoder
-          var markMSU = new google.maps.Marker({position: {lat: 42.719610, lng: -84.489090}, map: map, icon: green});
-          var markCle = new google.maps.Marker({position: {lat: 41.499321, lng: -81.694359}, map: map, icon: red});
-          var markCan = new google.maps.Marker({position: {lat: 21.161907, lng: -86.851524}, map: map, icon: orange});
-          var markNY = new google.maps.Marker({position: {lat: 40.712776, lng: -74.005974}, map: map, icon: orange});
-          var markAt = new google.maps.Marker({position: {lat: 33.748550, lng: -84.391502}, map: map, icon: orange});
-          var markVan = new google.maps.Marker({position: {lat: 49.282730, lng: -123.120735}, map: map, icon: orange});
-          var markTor = new google.maps.Marker({position: {lat: 43.666667, lng: -79.416667}, map: map, icon: orange});
-          var markChi = new google.Maps.Marker({position: {lat: 41.8781, lng: 87.6298}, map: map, icon: orange});
-          var markVie = new google.maps.Marker({position: {lat: 48.2082, lng: 16.3738}, map: map, icon: orange});
-          var markDen = new google.maps.Marker({position: {lat: 55.6761, lng: 12.5683}, map: map, icon: orange});
-          var markHun = new google.maps.Marker({position: {lat: 47.4979, lng: 19.0402}, map: map, icon: orange});
-          var markRom = new google.maps.Marker({position: {lat: 44.4268, lng: 26.1025}, map: map, icon: orange});
-          var markSwi= new google.maps.Marker({position: {lat: 47.3769, lng: 8.5417}, map: map, icon: orange});
-          var markGer = new google.maps.Marker({position: {lat: 48.1351, lng: 11.5820}, map: map, icon: orange});
-          var markFlo = new google.maps.Marker({position: {lat: 25.7617, lng: 80.1918}, map: map, icon: orange});
-        }
-      </script>
+      <script src="myMap.js"></script>
       <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj3_MiNOtv4oHg9lewpHdZTqltRfo9ZPc&callback=myMap">
-        </script>
+      </script>
 
-      <p>Born in Transylvania</p>
-      <p>Moved to Cleveland, Ohio</p>
-      <p>Travled to . . .</p>
-      <!-- * Cancun Mexico
-            * Miami
-            * New York 
-            * Atalanta
-            * Vancover
-            * Toronto
-            * Chicago 
-            * Vienna Austra 
-            * Denmark 
-            * Hungary 
-            * Romania 
-            * Switzerland 
-            * Germany
-      -->
+      <div class="places">
+        <p>Born in Transylvania</p>
+        <p>Medias, Romania</p>
+        <p>Moved to Cleveland, Ohio</p>
+        <p>Travled to . . .</p>
+        <ul>
+          <li>Cancun, Mexico</li>
+          <li>Miami, Florida</li>
+          <li>New York City, New York</li>
+          <li>Atlanta, Georgia</li>
+          <li>Chicago, </li>
+          <li>Vancover, Canada</li>
+          <li>Toronto, Canada</li>
+          <li>Vienna, Austria</li>
+          <li>Copenhagen, Denmark</li>
+          <li>Budapest, Hungary</li>
+          <li>Bucharest, Romania</li>
+          <li>Munich, Germany</li>
+        </ul>
+      </div>
     </article>
 
     <article id="ed_ex">
