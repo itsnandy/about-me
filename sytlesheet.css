@@ -24,8 +24,12 @@ li .links {
 
 .info {
   background-color: cadetblue;
+  display: flex;
 }
-
+img {
+  border-radius: 8px;
+  /* justify-content: center; */
+}
 .locationArt {
   background-color: midnightblue;
   display: flex;
@@ -34,31 +38,37 @@ li .links {
   /* flex-direction: column; */
   /* justify-content: center; */
 }
-.where {
+.where{
   /* justify-content: center; */
+  /* display: flex;
+  flex-direction: row; */
+
   text-align: center;
-  /* order: 1; */
+  order: 1;
+  /* align-content: flex-start; */
   /* align-self: center; */
   /* color: black; */
+  /* padding: 100px; */
 }
 .map {
   display: flex;
-  /* order: 1; */
   flex-direction: column;
   justify-content: left;
+  /* order: 1; */
   /* flex: ; */
   /* justify-content: left; */
   /* padding: 1rem; */
+  margin: 40px;
   border-radius: 8px;
 }
 .places {
   display: flex;
   flex-direction: column;
-  /* order: 2; */
   justify-content: right;
+  /* order: 2; */
   /* text-align: right; */
   /* width: 50%; */
-  /* margin: auto; */
+  margin: 40px;
   /* height: 50%; */
   /* display: flex; */
   /* flex: 1; */
