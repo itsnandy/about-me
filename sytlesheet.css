@@ -11,6 +11,10 @@ header {
   padding: 20px 0 0 40px;
   /* list-style-type: none; */
 }
+.name {
+  font-size: 24px;
+  font-style: italic;
+}
 ul .links{
   list-style-type: none;
   display: flex;
@@ -25,10 +29,30 @@ li .links {
 .info {
   background-color: cadetblue;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-img {
+.info img {
+  display: flex;
+  max-width: 150px;
+  /* width: auto; */
+  /* height: auto; */
   border-radius: 8px;
+}
+.mePic {
+  /* display: flex; */
   /* justify-content: center; */
+  /* order: 1; */
+  /* align-content: center; */
+  /* display: none; */
+}
+.meInfo {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 12px;
+  /* order: 1; */
+  /* text-align: center; */
 }
 .locationArt {
   background-color: midnightblue;
@@ -37,12 +61,13 @@ img {
   /* flex-wrap: wrap; */
   /* flex-direction: column; */
   /* justify-content: center; */
+    justify-content: space-evenly;
+
 }
 .where{
   /* justify-content: center; */
   /* display: flex;
   flex-direction: row; */
-
   text-align: center;
   order: 1;
   /* align-content: flex-start; */
@@ -78,6 +103,7 @@ img {
 .edu_ex {
   background-color: steelblue;
   display: flex;
+  justify-content: space-evenly;
 }
 .edu_ex h1 {
   /* padding-left: 100px; */
@@ -86,13 +112,16 @@ img {
 .edu {
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  /* justify-content: left; */
+  /* justify-content: space-evenly; */
+  /* align-content: space-evenly; */
   padding: 20px;
 }
-
 .exp {
   display: flex;
   flex-direction: column;
-  justify-content: right;
+  /* justify-content: right; */
+  justify-content: space-evenly;
+  /* align-content: space-evenly; */
   padding: 20px;
 }
