@@ -11,13 +11,11 @@ header {
   padding: 20px 0 0 40px;
   /* list-style-type: none; */
 }
-
 ul .links{
   list-style-type: none;
   display: flex;
   margin-left: 500px;
 }
-
 li .links {
   display: flex;
   /* margin-right; */
@@ -29,11 +27,13 @@ li .links {
 }
 
 .locationArt {
-  /* display: flex; */
-  /* flex-direction: column;
-  justify-content: center; */
+  background-color: midnightblue;
+  display: flex;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
 }
-
 .where {
   /* justify-content: center; */
   text-align: center;
@@ -41,28 +41,48 @@ li .links {
   /* align-self: center; */
   /* color: black; */
 }
-
 .map {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: left; */
+  /* order: 1; */
+  flex-direction: column;
+  justify-content: left;
   /* flex: ; */
-  justify-content: flex-start;
-  order: 1;
+  /* justify-content: left; */
   /* padding: 1rem; */
   border-radius: 8px;
 }
-
 .places {
   display: flex;
-  /* flex-direction: column; */
-  justify-content: flex-end;
+  flex-direction: column;
+  /* order: 2; */
+  justify-content: right;
   /* text-align: right; */
   /* width: 50%; */
   /* margin: auto; */
   /* height: 50%; */
   /* display: flex; */
-  order: 2;
   /* flex: 1; */
-  padding: 1rem;
+  /* padding: 1rem; */
+}
+
+.edu_ex {
+  background-color: steelblue;
+  display: flex;
+}
+.edu_ex h1 {
+  /* padding-left: 100px; */
+  color: black;
+}
+.edu {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 20px;
+}
+
+.exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  padding: 20px;
 }
