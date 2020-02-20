@@ -138,3 +138,64 @@ header {
   /* align-content: space-evenly; */
   padding: 20px;
 }
+
+/* Support Page */
+.contactDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.emailLink {
+  color: white;
+}
+
+.formBox {
+  background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: linear-gradient(rgb(75, 54, 109), rgb(40, 29, 58));
+background-origin: padding-box;
+background-size: auto;
+border-bottom-color: rgb(227, 227, 218);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(227, 227, 218);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(227, 227, 218);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(227, 227, 218);
+border-top-style: none;
+border-top-width: 0px;
+color: rgb(227, 227, 218);
+display: block;
+font-family: Merriweather, sans-serif;
+font-size: 21.33333396911621px;
+font-weight: 300;
+height: 220px;
+letter-spacing: 1.0666667222976685px;
+line-height: 21px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+outline-color: rgb(227, 227, 218);
+outline-style: none;
+outline-width: 0px;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 32px;
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 32px;
+vertical-align: baseline;
+width: 170px;
+}
