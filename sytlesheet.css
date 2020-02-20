@@ -145,6 +145,7 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   text-align: center;
+  align-items: center;
 }
 
 .emailLink {
