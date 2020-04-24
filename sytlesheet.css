@@ -44,7 +44,7 @@ footer {
 }
 
 .info {
-  background-color: cadetblue;
+  background-color: steelblue; /*cadetblue*/
   align-items: center;
   display: flex;
   justify-content: center;
