@@ -216,12 +216,12 @@ footer {
   }
   .map {
     /* display: flex; */
-    /* justify-content: space-evenly; */
+    /* justify-content: center; */
     /* margin: 0px; */
     /* border-radius: 8px; */
   }
   #map {
-    height: 400px;
-    width: auto;
+    height: 500px;
+    width: 77%;
   }
 }
