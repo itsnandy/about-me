@@ -4,39 +4,47 @@ body {
   color: white;
   /* display: flex; */
 }
-
 header {
   background-color: black;
   /* align-items: center; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  /* align-items: center; */
   padding: 20px;
   /* list-style-type: none; */
 }
-.name {
+footer {
+  background-color: black;
   display: flex;
-  justify-content: left;
-  /* order: 1; */
-  /* align-items: center; */
+  justify-content: space-around;
+}
+.name {
   font-size: 24px;
   font-style: italic;
 }
+
+@media screen and (min-width: 640px) {
+  .flex-container {
+    display: flex;
+  }
+}
+
 .links ul{
   list-style-type: none;
   display: flex;
-  /* order: 1; */
   flex-direction: row;
+  justify-content: space-evenly;
   /* justify-content: flex-end; */
   /* width: 100px; */
   /* justify-content: space-between; */
   /* margin-left: 500px; */
 }
 .links li {
-  display: flex;
+  /* display: flex; */
   /* text-align: center; */
   /* flex-direction: row; */
-  justify-content: end;
+  /* justify-content: end; */
   /* margin-right; */
   padding-right: 120px;
 }
