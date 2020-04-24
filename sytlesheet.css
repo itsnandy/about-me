@@ -220,7 +220,7 @@ footer {
   }
   #map {
     height: 500px;
-    width: 330px;
+    width: 80%;
   }
   .map {
     /* display: flex; */
